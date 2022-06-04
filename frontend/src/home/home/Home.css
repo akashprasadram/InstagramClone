@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.Home {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  background: #fafafa !important;
+  position: relative;
+  font-family: "roboto", sans-serif;
+}
+
+.Header {
+  position: -webkit-sticky;
+  top: 0;
+  z-index: 1;
+  position: sticky;
+}
+
+/* Container */
+.container {
+  justify-content: space-around !important;
+  padding: 30px 0 0 0 !important;
+}
+
+/* Left Side pannel*/
+.left-col {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Right Side Panel */
+
+.right-col {
+  padding: 20px;
+  position: relative;
+}
+
+@media only screen and (max-width: 540px) {
+  .right-col {
+    display: none !important;
+  }
+  .container {
+    padding: 0px 0 0 0 !important;
+  }
+}

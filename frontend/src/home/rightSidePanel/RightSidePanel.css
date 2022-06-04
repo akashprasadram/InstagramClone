@@ -1,0 +1,58 @@
+/* Right Side Panel */
+.right-panel {
+  position: fixed !important;
+}
+.profile-card {
+  width: fit-content;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+  background: none !important;
+  border: none !important;
+}
+.profile-card .profile-pic {
+  flex: 0 0 auto;
+  padding: 0;
+  background: none;
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
+  /*background: linear-gradient(45deg, rgb(255, 230, 0), rgb(255, 0, 128) 80%);*/
+}
+
+.profile-card:first-child .profile-pic {
+  width: 70px;
+  height: 70px;
+}
+
+.profile-card .profile-pic .img {
+  border: none;
+}
+
+.profile-card .username {
+  font-weight: 500;
+  font-size: 18px;
+  color: #000;
+  margin-bottom: 0 !important;
+}
+
+.sub-text {
+  color: rgba(0, 0, 0, 0.5);
+  font-size: 12px;
+  font-weight: 500;
+  margin-top: 0px;
+}
+
+.action-btn {
+  opacity: 1;
+  font-weight: 700;
+  font-size: 12px;
+}
+
+.suggestion-text {
+  font-size: 14px;
+  color: rgba(0, 0, 0, 0.5);
+  font-weight: 700;
+  margin: 20px 0;
+}

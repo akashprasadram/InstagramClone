@@ -1,0 +1,159 @@
+/*Post*/
+.post {
+  width: 100% !important;
+  height: auto;
+  background: #fff !important;
+  border: 1px solid #dfdfdf !important;
+  margin-top: 40px;
+  /*margin-top: 40px !important;*/
+}
+.info {
+  width: 100%;
+  height: 60px !important;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px !important;
+  flex: none !important;
+}
+
+.info .username {
+  width: auto;
+  font-weight: bold;
+  color: #000;
+  font-size: 14px;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+.info .options {
+  display: inline-block;
+  height: 10px;
+  cursor: pointer;
+}
+
+.options-icon {
+  height: 16px;
+  width: 16px;
+}
+
+.info .user {
+  display: flex;
+  align-items: center;
+}
+
+.info .profile-pic {
+  height: 40px;
+  width: 40px;
+  padding: 0;
+  background: none;
+}
+
+.info .profile-pic img {
+  border: none;
+}
+
+.post-image {
+  width: 100%;
+  height: 500px;
+  object-fit: cover;
+}
+
+/* post Image */
+.post-content {
+  width: 100%;
+  padding: 20px 20px 0 20px !important;
+  flex: none !important;
+}
+
+/* comment & likes */
+.likes {
+  font-weight: bold;
+}
+
+.description {
+  margin: 10px 0 !important;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.description span {
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+.post-time {
+  color: rgba(0, 0, 0, 0.5);
+  font-size: 12px;
+}
+
+.likes {
+  margin-bottom: 0px !important;
+}
+
+.post-icon {
+  position: relative;
+  top: -6px;
+  height: 25px;
+  font-size: 24px;
+}
+
+.heart {
+  color: red;
+}
+/* Recation wrapper */
+.reaction-wrapper {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  margin-top: -20px;
+  align-items: center;
+}
+
+.reaction-wrapper .icon {
+  height: 20px;
+  margin: 0;
+  margin-right: 20px;
+}
+
+.save {
+  margin-left: auto !important;
+  float: left;
+}
+
+/* add comment*/
+.comment-wrapper {
+  flex: none !important;
+  width: 100%;
+  height: 50px;
+  border-radius: 1px solid #dfdfdf;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.comment-wrapper .icon {
+  height: 30px;
+}
+
+.comment-box {
+  width: 80%;
+  height: 100%;
+  padding-left: 10px;
+  border: none;
+  outline: none;
+  font-size: 14px;
+}
+
+.comment-btn,
+.action-btn {
+  width: 70px;
+  height: 100%;
+  background: none;
+  border: none;
+  outline: none;
+  text-transform: capitalize;
+  font-size: 16px;
+  color: rgb(0, 162, 255);
+  opacity: 0.5;
+}

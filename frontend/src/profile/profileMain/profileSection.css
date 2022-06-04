@@ -1,0 +1,240 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap");
+
+/* Initaling 
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  background: #fafafa !important;
+  position: relative;
+  font-family: "roboto", sans-serif;
+}
+
+ -----------Code------------- */
+
+.profilePage-container {
+  display: flex;
+  width: 100%;
+  height: auto;
+  margin-top: 40px;
+}
+.profilePage-pic {
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  overflow: hidden;
+  background: none;
+  margin-left: 15%;
+}
+
+.profilePage-pic img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 2px solid #fff;
+}
+
+.profilePage-leftside {
+  margin-left: 10%;
+  margin-top: 1%;
+  width: 64%;
+  display: flex;
+  flex-direction: column;
+}
+.profilePage-setting {
+  display: flex;
+}
+.profilePage-bottom-panel {
+  display: flex;
+}
+.profilePage-username {
+  width: auto;
+  font-weight: bold;
+  color: #000;
+  font-size: 28px;
+}
+
+.profilePage-settingbtn-container {
+  margin-top: 1%;
+  margin-left: 3%;
+}
+
+.profilePage-settingbtn {
+  background-color: transparent;
+  border: 1px solid #dbdbdb;
+  color: #262626;
+  padding: 2px 6px;
+}
+
+.profilePage-setting-icon {
+  margin-top: 1%;
+  margin-left: 2%;
+  font-size: 25px;
+}
+
+.profilePage-text-style {
+  padding: 0 5% 0 0;
+}
+.profilePage-total {
+  font-weight: bold;
+}
+
+.profilePage-line {
+  width: 80%;
+  margin: 40px auto 0px auto;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+}
+.profilePage-hidden-line {
+  display: none;
+}
+
+.profilePage-tags {
+  justify-content: center;
+  margin-top: -1;
+}
+.profilePage-tag {
+  margin: 0 3% 0 0;
+  padding-top: 10px;
+  color: rgba(0, 0, 0, 0.5);
+  font-size: 14px;
+}
+.active,
+.profilePage-tag:active {
+  font-weight: bold;
+  color: black !important;
+  border-top: 1px solid black !important;
+}
+
+.profilePage-post-body {
+  margin: 20px auto 0px 10%;
+  display: flex;
+  flex-wrap: wrap;
+}
+.profilePage-post-body img {
+  width: 300px;
+  height: 280px;
+  margin: 2% 0 0 3%;
+}
+
+.follow-btn {
+  padding: 2px 6px;
+  width: 90px;
+  display: inline-block;
+  font-weight: 400;
+  line-height: 1.5;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  vertical-align: middle;
+  cursor: pointer;
+  border: 1px solid transparent;
+  font-size: 1rem;
+  border-radius: 0.25rem;
+}
+
+.hidden-btn {
+  display: none;
+}
+
+@media only screen and (max-width: 730px) {
+  .profilePage-post-body img {
+    width: 200px;
+    height: 200px;
+    margin: 2% 1% 0 0;
+  }
+}
+@media only screen and (max-width: 540px) {
+  .profilePage-topnav {
+    padding-right: 12px !important;
+  }
+  .profilePage-right-col {
+    display: none !important;
+  }
+  .profilePage-setting-icon {
+    display: none;
+  }
+
+  .profilePage-settingbtn-container {
+    margin-top: 2%;
+  }
+  .profilePage-settingbtn {
+    width: 60%;
+  }
+  .profilePage-setting {
+    display: block;
+  }
+  .profilePage-pic {
+    height: 120px;
+    width: 120px;
+    padding: 0;
+    background: none;
+    margin-left: 5%;
+  }
+  .profilePage-bottom-panel {
+    display: flex !important;
+    align-self: baseline;
+    justify-content: space-around;
+    width: 100%;
+    position: relative;
+    right: 20%;
+  }
+  .profilePage-hidden-line {
+    display: block;
+    align-self: baseline;
+    position: relative;
+    width: 170%;
+    padding: 0%;
+    right: 55%;
+    margin-bottom: 4%;
+  }
+  .profilePage-main > .profilePage-line {
+    margin-top: 2%;
+    width: 120%;
+  }
+  .profilePage-tags {
+    justify-content: space-around;
+  }
+  .profilePage-tag {
+    font-size: 22px;
+    margin: 1% 0;
+  }
+  .profilePage-Tag-Text {
+    display: none;
+  }
+
+  .profilePage-active,
+  .profilePage-tag:active {
+    color: blue;
+    border-top: none;
+  }
+
+  .profilePage-post-body {
+    margin: 20px 0px 0px 1%;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .profilePage-post-body img {
+    width: 155px;
+    height: 132px;
+    margin: 2% 1% 0 0;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .profilePage-post-body {
+    margin: 20px 0px 0px 0;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .profilePage-post-body img {
+    width: 116px;
+    height: 110px;
+    margin: 2% 1% 0 0;
+  }
+}

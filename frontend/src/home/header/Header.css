@@ -1,0 +1,141 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap");
+
+/* Initaling */
+
+/* * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  border: 1px solid green;
+  height: 90%;
+} */
+
+Header {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  background: #fafafa !important;
+  position: relative;
+  font-family: "roboto", sans-serif;
+  border: 2px solid red;
+}
+
+/* -----------Code------------- */
+
+/* Upload */
+.upload-show {
+  position: absolute;
+  z-index: 3;
+  display: none;
+}
+
+/* Navbar */
+.topnav {
+  position: -webkit-sticky;
+  top: 0;
+  z-index: 1;
+  position: sticky;
+  background: #fff;
+  height: 60px;
+  border-bottom: 1px solid #dfdfdf;
+  justify-content: space-around;
+  padding: 0;
+}
+
+/* nav-wrapper */
+.nav-wrapper {
+  height: 100%;
+  justify-content: space-around !important;
+  align-items: center !important;
+}
+
+/* Search-box */
+.search-box {
+  width: 280px !important;
+  background: #fafafa !important;
+}
+
+.search-box:focus {
+  outline: none !important;
+  box-shadow: none !important;
+  background: #fafafa;
+}
+
+.profile-option {
+  height: 100%;
+  padding-top: 16px;
+}
+
+.dropdown-list {
+  display: none !important;
+}
+
+@media only screen and (min-width: 720px) and (max-width: 830px) {
+  .search-box {
+    width: 180px !important;
+  }
+  .left-col {
+    width: 90% !important;
+  }
+  .right-col {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 720px) {
+  .search-bar > .search-box {
+    display: none !important;
+  }
+  .right-col {
+    display: none;
+  }
+}
+
+/* profile icon */
+.user-profile {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  object-fit: cover;
+  object-fit: cover;
+  padding: 1px;
+  border: 1px solid #fff;
+}
+
+.user-profile:active {
+  border: 1px solid black;
+}
+
+.nav-icon {
+  font-size: 30px;
+  color: black;
+}
+
+.dropdown-options {
+  display: none;
+  background-color: #fff;
+  position: absolute !important;
+  width: 220px !important;
+  z-index: 10;
+  border: 2px groove rgba(0, 0, 0, 0.1) !important;
+  margin-top: -3 !important;
+  right: 0 !important;
+}
+
+/* Responsive */
+@media only screen and (max-width: 540px) {
+  .topnav {
+    padding-right: 12px !important;
+  }
+  .navbar-brand {
+    display: none !important;
+  }
+}
+
+/*Search Bar Suggestion */
+.search-card {
+  display: flex;
+  height: 50px;
+  width: 280px !important;
+  align-items: center;
+}
